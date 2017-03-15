@@ -1,0 +1,164 @@
+<?php
+$sql = "CREATE TABLE IF NOT EXISTS `ims_q_3354988381_rencai_adtj` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `ad_id` int(10) NOT NULL,
+  `user_from` varchar(60) NOT NULL COMMENT 'openid关联用户表提出信息',
+  `link_url` varchar(100) NOT NULL,
+  `createtime` datetime NOT NULL,
+  `weid` int(10) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `article_id` (`ad_id`),
+  KEY `weid` (`weid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='浏览统计' AUTO_INCREMENT=1";
+pdo_run($sql);
+
+$sql = "CREATE TABLE IF NOT EXISTS `ims_q_3354988381_rencai_positiontype` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `weid` int(10) NOT NULL,
+  `name` varchar(64) CHARACTER SET utf8 NOT NULL,
+  `sort` int(4) NOT NULL,
+  `logo` varchar(100) CHARACTER SET utf8 NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `weid` (`weid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='职业类型设置' AUTO_INCREMENT=1";
+pdo_run($sql);
+
+$sql = "CREATE TABLE IF NOT EXISTS `ims_q_3354988381_rencai_notify` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `weid` int(10) NOT NULL,
+  `type` char(1) CHARACTER SET utf8 NOT NULL DEFAULT 'M' COMMENT 'M T',
+  `content_type` varchar(100) NOT NULL COMMENT '内容类型如求职者的',
+  `content` text CHARACTER SET utf8 NOT NULL,
+  `tpl_id` varchar(100) CHARACTER SET utf8 NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `weid` (`weid`),
+  KEY `content_type` (`content_type`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='消息通知管理' AUTO_INCREMENT=1 ;";
+pdo_run($sql);
+
+$sql = "CREATE TABLE IF NOT EXISTS `ims_q_3354988381_rencai_invite_person` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `weid` int(11) NOT NULL COMMENT '公众号',
+  `company_id` int(11) NOT NULL COMMENT '公司id',
+  `person_id` int(11) NOT NULL COMMENT '邀请来面试的求职者id',
+  `dateline` int(11) NOT NULL COMMENT '邀请时间',
+  PRIMARY KEY (`id`),
+  KEY `weid` (`weid`,`company_id`,`person_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='企业发出邀请面试' AUTO_INCREMENT=1;";
+pdo_run($sql);
+
+$sql = "CREATE TABLE IF NOT EXISTS `ims_q_3354988381_rencai_form` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `uniacid` int(10) NOT NULL,
+  `field` varchar(32) NOT NULL,
+  `label` varchar(64) NOT NULL,
+  `user_label` varchar(64) NOT NULL,
+  `show` int(1) NOT NULL,
+  `sort` int(4) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `uniacid` (`uniacid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='表单管理' AUTO_INCREMENT=1 ;";
+pdo_run($sql);
+
+
+if(!pdo_fetchall("SELECT * FROM ".tablename('modules_bindings')." WHERE module='q_3354988381_rencai' AND `do`='adtj'")) {
+  pdo_query("INSERT INTO ".tablename('modules_bindings')." (`eid`, `module`, `entry`, `call`, `title`, `do`, `state`, `direct`) VALUES
+('', 'q_3354988381_rencai', 'menu', '', '广告浏览统计', 'adtj', '', 0);");
+}
+
+pdo_query("ALTER TABLE  ".tablename('q_3354988381_rencai_company')." CHANGE  `mobile`  `mobile` CHAR( 20 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT  '手机'");
+
+
+if (!pdo_fieldexists('q_3354988381_rencai_company', 'sort')) {
+	$sql = "ALTER TABLE  ".tablename('q_3354988381_rencai_company')." ADD  `sort` INT( 10 ) NOT NULL AFTER  `dateline`";
+	pdo_query($sql);
+}
+
+if (!pdo_fieldexists('q_3354988381_rencai_company', 'cant_resume')) {
+	$sql = "ALTER TABLE  ".tablename('q_3354988381_rencai_company')." ADD  `cant_resume` INT( 1 ) NOT NULL COMMENT  '为1不可以看个人简历' AFTER  `sort`";
+	pdo_query($sql);
+}
+
+
+
+$sql = "CREATE TABLE IF NOT EXISTS `ims_q_3354988381_rencai_profile` (
+  `key` varchar(32) CHARACTER SET utf8 NOT NULL,
+  `val` varchar(64) CHARACTER SET utf8 NOT NULL,
+  `remark` varchar(64) CHARACTER SET utf8 NOT NULL,
+  UNIQUE KEY `key` (`key`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='参数说明';;	
+";
+pdo_query($sql);
+
+
+//pdo_query("ALTER TABLE  ".tablename('q_3354988381_rencai_profile')." DROP INDEX `key`");
+
+
+if (!pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('q_3354988381_rencai_profile') . " WHERE 1 and `key`='admin_upload_pic_type'")) {
+		$sql = "INSERT INTO ".tablename('q_3354988381_rencai_profile')." (`key`, `val`, `remark`) VALUES ('admin_upload_pic_type', 'N', '后台上传图片改为新版形式');";
+		pdo_query($sql);
+}
+
+pdo_query("ALTER TABLE  ".tablename('q_3354988381_rencai_person')." CHANGE  `workexperience`  `workexperience` VARCHAR( 20 ) NULL DEFAULT NULL COMMENT  '工作经验'");
+
+if(!pdo_fetchall("SELECT * FROM ".tablename('modules_bindings')." WHERE module='q_3354988381_rencai' AND `do`='index_theme'")) {
+  pdo_query("INSERT INTO ".tablename('modules_bindings')." (`eid`, `module`, `entry`, `call`, `title`, `do`, `state`, `direct`) VALUES
+('', 'q_3354988381_rencai', 'menu', '', '首页主题设置', 'index_theme', '', 0);");
+}
+
+
+
+if (!pdo_fieldexists('q_3354988381_rencai_profile', 'weid')) {
+	$sql = "ALTER TABLE  ".tablename('q_3354988381_rencai_profile')." ADD  `weid` INT( 10 ) NOT NULL FIRST";
+	pdo_query($sql);
+}
+
+if(!pdo_fetchall("SELECT * FROM ".tablename('modules_bindings')." WHERE module='q_3354988381_rencai' AND `do`='notify'")) {
+  pdo_query("INSERT INTO ".tablename('modules_bindings')." (`eid`, `module`, `entry`, `call`, `title`, `do`, `state`, `direct`) VALUES
+('', 'q_3354988381_rencai', 'menu', '', '消息通知管理', 'notify', '', 0);");
+}
+
+if(!pdo_fetchall("SELECT * FROM ".tablename('modules_bindings')." WHERE module='q_3354988381_rencai' AND `do`='form'")) {
+  pdo_query("INSERT INTO ".tablename('modules_bindings')." (`eid`, `module`, `entry`, `call`, `title`, `do`, `state`, `direct`) VALUES
+('', 'q_3354988381_rencai', 'menu', '', '表单管理', 'form', '', 0);");
+}
+
+if (!pdo_fieldexists('q_3354988381_rencai_company', 'position_sort')) {
+	$sql = "ALTER TABLE  ".tablename('q_3354988381_rencai_company')." ADD  `position_sort` INT( 4 ) NOT NULL AFTER  `position`";
+	pdo_query($sql);
+}
+
+if (!pdo_fieldexists('q_3354988381_rencai_person', 'attach_a')) {
+	$sql = "ALTER TABLE  ".tablename('q_3354988381_rencai_person')." ADD  `attach_a` VARCHAR( 200 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER  `expiration` ,
+ADD  `attach_b` VARCHAR( 200 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER  `attach_a` ,
+ADD  `attach_c` VARCHAR( 200 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER  `attach_b` ,
+ADD  `attach_d` VARCHAR( 200 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER  `attach_c` ,
+ADD  `attach_e` VARCHAR( 200 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER  `attach_d`";
+	pdo_query($sql);
+}
+
+if (!pdo_fetchcolumn('SELECT COUNT(*) FROM ' . tablename('q_3354988381_rencai_profile') . " WHERE 1 and `key`='deal_form_fields'")) {
+		$sql = "INSERT INTO ".tablename('q_3354988381_rencai_profile')." (`key`, `val`, `remark`) VALUES ('deal_form_fields', 'N', '处理字段逻辑');";
+		pdo_query($sql);
+}
+
+if (!pdo_fieldexists('q_3354988381_rencai_person', 'cid')) {
+	$sql = "ALTER TABLE  ".tablename('q_3354988381_rencai_person')." ADD  `cid` INT( 10 ) NOT NULL AFTER  `workexperience` ,
+ADD  `payroll` INT( 10 ) NOT NULL AFTER  `cid` ,
+ADD INDEX (  `cid` ,  `payroll` )";
+	pdo_query($sql);
+}
+
+if (!pdo_fieldexists('q_3354988381_rencai_company', 'province')) {
+	$sql = "ALTER TABLE  ".tablename('q_3354988381_rencai_company')." ADD  `province` VARCHAR( 64 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER `from_user` ,
+ADD  `city` VARCHAR( 64 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER  `province` ,
+ADD  `district` VARCHAR( 64 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER  `city`";
+	pdo_query($sql);
+}
+
+if (!pdo_fieldexists('q_3354988381_rencai_person', 'province')) {
+	$sql = "ALTER TABLE  ".tablename('q_3354988381_rencai_person')." ADD  `province` VARCHAR( 64 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER `from_user` ,
+ADD  `city` VARCHAR( 64 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER  `province` ,
+ADD  `district` VARCHAR( 64 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER  `city`";
+	pdo_query($sql);
+}
