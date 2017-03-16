@@ -1,0 +1,3403 @@
+2017-02-23 00:15:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487780133</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 00:15:33 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487780133',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487780133',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 00:15:33 response :
+------------
+
+2017-02-23 12:08:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv8arq0FtisiLCSkq9_l-1bQ]]></FromUserName>
+<CreateTime>1487822905</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 12:08:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'createtime' => '1487822905',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487822905',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 12:08:25 response :
+------------
+
+2017-02-23 12:09:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv8arq0FtisiLCSkq9_l-1bQ]]></FromUserName>
+<CreateTime>1487822948</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 12:09:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'createtime' => '1487822948',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487822948',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 12:09:08 response :
+------------
+
+2017-02-23 12:14:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv8arq0FtisiLCSkq9_l-1bQ]]></FromUserName>
+<CreateTime>1487823246</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 12:14:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'createtime' => '1487823246',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487823246',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 12:14:07 response :
+------------
+
+2017-02-23 13:40:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487828441</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 13:40:41 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487828441',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487828441',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 13:40:41 response :
+------------
+
+2017-02-23 14:46:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv8arq0FtisiLCSkq9_l-1bQ]]></FromUserName>
+<CreateTime>1487832380</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 14:46:20 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'createtime' => '1487832380',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487832380',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 14:46:20 response :
+------------
+
+2017-02-23 14:46:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv8arq0FtisiLCSkq9_l-1bQ]]></FromUserName>
+<CreateTime>1487832402</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 14:46:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'createtime' => '1487832402',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487832402',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 14:46:42 response :
+------------
+
+2017-02-23 14:47:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv8arq0FtisiLCSkq9_l-1bQ]]></FromUserName>
+<CreateTime>1487832446</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 14:47:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'createtime' => '1487832446',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487832446',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 14:47:26 response :
+------------
+
+2017-02-23 14:55:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487832905</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 14:55:05 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487832905',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487832905',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 14:55:05 response :
+------------
+
+2017-02-23 15:42:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487835775</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 15:42:55 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487835775',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487835775',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 15:42:55 response :
+------------
+
+2017-02-23 15:44:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487835848</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 15:44:08 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487835848',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487835848',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 15:44:08 response :
+------------
+
+2017-02-23 15:46:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487836015</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 15:46:55 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487836015',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487836015',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 15:46:55 response :
+------------
+
+2017-02-23 16:13:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv1oEZv0h9EEeYmJOPvDjBjo]]></FromUserName>
+<CreateTime>1487837638</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-02-23 16:13:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'createtime' => '1487837638',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487837638',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-02-23 16:13:58 response :
+------------
+
+2017-02-23 16:14:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv1oEZv0h9EEeYmJOPvDjBjo]]></FromUserName>
+<CreateTime>1487837643</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 16:14:03 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'createtime' => '1487837643',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487837643',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 16:14:03 response :
+------------
+
+2017-02-23 16:52:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487839936</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 16:52:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487839936',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487839936',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 16:52:17 response :
+------------
+
+2017-02-23 17:31:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487842305</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[@电脑]]></Content>
+<MsgId>6390234041996358563</MsgId>
+</xml>
+
+2017-02-23 17:31:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487842305',
+    'msgtype' => 'text',
+    'content' => '@电脑',
+    'msgid' => '6390234041996358563',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487842305',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'userapi',
+  'rule' => '3',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '4',
+    'rid' => '3',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '^@.+$',
+    'type' => '3',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 17:31:45 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv5lnXqFd-E1kLQ4qOC-8bTY ;
+MsgType : text ;
+Content : 电脑
+==================
+发音:
+[diàn nǎo]
+==================
+n.computer;brain
+misc.robotbrain;accountingmachine
+ ;
+
+2017-02-23 17:31:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487842315</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[福州天气]]></Content>
+<MsgId>6390234084946031527</MsgId>
+</xml>
+
+2017-02-23 17:31:56 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487842315',
+    'msgtype' => 'text',
+    'content' => '福州天气',
+    'msgid' => '6390234084946031527',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487842315',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'userapi',
+  'rule' => '1',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '1',
+    'rid' => '1',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '^.+天气$',
+    'type' => '3',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 17:31:56 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv5lnXqFd-E1kLQ4qOC-8bTY ;
+MsgType : text ;
+Content : 福州今日天气
+今天白天小雨，12摄氏度。
+东北风，3-4
+今天夜间小雨，7摄氏度。
+东北风，3-4
+==================
+【穿衣指数】：风衣、大衣、夹大衣、外套、毛衣、毛套装、西服套装、薄棉外套
+
+【感冒指数】：易发期天气很凉，季节转换的气候，慎重增加衣服；较易引起感冒；
+
+【空调指数】：建议开启空调
+
+【污染物扩散条件】：良有利于空气污染物扩散
+
+【洗车指数】：不适宜洗车后当日有降水、大风或沙尘天气，或当日特别寒冷，容易结冰。不适宜洗车。
+
+【运动指数】：不适宜天气阴冷，不适宜户外运动；
+
+【紫外线指数】：最弱紫外线最弱
+
+【体感度指数】：较凉老年、幼儿、体弱者外出需要带上薄围巾、薄手套。
+ ;
+
+2017-02-23 17:32:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487842366</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[几号]]></Content>
+<MsgId>6390234303989363643</MsgId>
+</xml>
+
+2017-02-23 17:32:47 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487842366',
+    'msgtype' => 'text',
+    'content' => '几号',
+    'msgid' => '6390234303989363643',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487842366',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'userapi',
+  'rule' => '4',
+  'priority' => '255',
+  'keyword' => 
+  array (
+    'id' => '8',
+    'rid' => '4',
+    'uniacid' => '0',
+    'module' => 'userapi',
+    'content' => '几号',
+    'type' => '1',
+    'displayorder' => '255',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 17:32:47 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv5lnXqFd-E1kLQ4qOC-8bTY ;
+MsgType : text ;
+Content : 今天是 2017年2月23日 星期四==================
+农历: 正月27日 丁酉年 壬寅月 辛巳日==================
+宜: 
+祭祀:指祠堂之祭祀、即拜祭祖先或庙寺的祭拜、拜神明等事。
+平治道涂:指铺平道路等工事。
+余事勿取:除此以外，其余的事都不可做
+==================
+忌: 
+嫁娶:男娶女嫁，举行结婚大典的吉日。
+祈福:祈求神明降福或设醮还愿之事。
+掘井:开凿水井。
+安葬:举行埋葬等仪式。
+ ;
+
+2017-02-23 18:05:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv1oEZv0h9EEeYmJOPvDjBjo]]></FromUserName>
+<CreateTime>1487844301</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 18:05:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'createtime' => '1487844301',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487844301',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 18:05:01 response :
+------------
+
+2017-02-23 18:14:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487844877</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 18:14:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487844877',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487844877',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 18:14:38 response :
+------------
+
+2017-02-23 18:21:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487845270</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 18:21:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487845270',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487845270',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 18:21:10 response :
+------------
+
+2017-02-23 18:21:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv8arq0FtisiLCSkq9_l-1bQ]]></FromUserName>
+<CreateTime>1487845285</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 18:21:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'createtime' => '1487845285',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487845285',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 18:21:25 response :
+------------
+
+2017-02-23 18:25:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487845544</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 18:25:44 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487845544',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487845544',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 18:25:44 response :
+------------
+
+2017-02-23 18:37:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487846267</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 18:37:48 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487846267',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487846267',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 18:37:48 response :
+------------
+
+2017-02-23 18:39:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487846342</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-02-23 18:39:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487846397</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-02-23 18:39:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487846397',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487846397',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-02-23 18:39:57 response :
+------------
+
+2017-02-23 18:40:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487846400</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416102822</MenuId>
+</xml>
+
+2017-02-23 18:40:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487846400',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416102822',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487846400',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 18:40:00 response :
+------------
+
+2017-02-23 18:40:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487846405</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[建设]]></EventKey>
+</xml>
+
+2017-02-23 18:40:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487846405',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '建设',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487846405',
+    'type' => 'text',
+    'content' => '建设',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'images',
+  'rule' => '19',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '36',
+    'rid' => '19',
+    'uniacid' => '10',
+    'module' => 'images',
+    'content' => '建设',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 18:40:05 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv5lnXqFd-E1kLQ4qOC-8bTY ;
+MsgType : image ;
+Image : Array ;
+
+2017-02-23 18:42:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487846565</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[研发]]></Content>
+<MsgId>6390252338557041320</MsgId>
+</xml>
+
+2017-02-23 18:42:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487846565',
+    'msgtype' => 'text',
+    'content' => '研发',
+    'msgid' => '6390252338557041320',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487846565',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '37',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 18:42:45 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv5lnXqFd-E1kLQ4qOC-8bTY ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 18:43:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487846590</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[建设]]></EventKey>
+</xml>
+
+2017-02-23 18:43:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487846590',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '建设',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487846590',
+    'type' => 'text',
+    'content' => '建设',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'images',
+  'rule' => '19',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '36',
+    'rid' => '19',
+    'uniacid' => '10',
+    'module' => 'images',
+    'content' => '建设',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 18:43:11 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv5lnXqFd-E1kLQ4qOC-8bTY ;
+MsgType : image ;
+Image : Array ;
+
+2017-02-23 18:43:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487846597</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[建设]]></EventKey>
+</xml>
+
+2017-02-23 18:43:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487846597',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '建设',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487846597',
+    'type' => 'text',
+    'content' => '建设',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'images',
+  'rule' => '19',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '36',
+    'rid' => '19',
+    'uniacid' => '10',
+    'module' => 'images',
+    'content' => '建设',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 18:43:18 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv5lnXqFd-E1kLQ4qOC-8bTY ;
+MsgType : image ;
+Image : Array ;
+
+2017-02-23 18:43:22 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv1oEZv0h9EEeYmJOPvDjBjo]]></FromUserName>
+<CreateTime>1487846602</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[建设]]></EventKey>
+</xml>
+
+2017-02-23 18:43:22 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'createtime' => '1487846602',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '建设',
+    'from' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487846602',
+    'type' => 'text',
+    'content' => '建设',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'images',
+  'rule' => '19',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '36',
+    'rid' => '19',
+    'uniacid' => '10',
+    'module' => 'images',
+    'content' => '建设',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 18:43:22 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv1oEZv0h9EEeYmJOPvDjBjo ;
+MsgType : image ;
+Image : Array ;
+
+2017-02-23 18:52:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv1oEZv0h9EEeYmJOPvDjBjo]]></FromUserName>
+<CreateTime>1487847135</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416102982</MenuId>
+</xml>
+
+2017-02-23 18:52:15 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'createtime' => '1487847135',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416102982',
+    'from' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487847135',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 18:52:15 response :
+------------
+
+2017-02-23 18:53:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv1oEZv0h9EEeYmJOPvDjBjo]]></FromUserName>
+<CreateTime>1487847219</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[建设]]></EventKey>
+</xml>
+
+2017-02-23 18:53:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'createtime' => '1487847219',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '建设',
+    'from' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487847219',
+    'type' => 'text',
+    'content' => '建设',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'images',
+  'rule' => '19',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '36',
+    'rid' => '19',
+    'uniacid' => '10',
+    'module' => 'images',
+    'content' => '建设',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 18:53:40 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv1oEZv0h9EEeYmJOPvDjBjo ;
+MsgType : image ;
+Image : Array ;
+
+2017-02-23 18:55:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487847342</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416102822</MenuId>
+</xml>
+
+2017-02-23 18:55:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487847342',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416102822',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487847342',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 18:55:42 response :
+------------
+
+2017-02-23 19:01:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCvy2cDeZ3kbm8vxbAy4-RAqY]]></FromUserName>
+<CreateTime>1487847660</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416071104</MenuId>
+</xml>
+
+2017-02-23 19:01:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCvy2cDeZ3kbm8vxbAy4-RAqY',
+    'createtime' => '1487847660',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416071104',
+    'from' => 'oBgRCvy2cDeZ3kbm8vxbAy4-RAqY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487847660',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:01:00 response :
+------------
+
+2017-02-23 19:04:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv1oEZv0h9EEeYmJOPvDjBjo]]></FromUserName>
+<CreateTime>1487847891</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103118</MenuId>
+</xml>
+
+2017-02-23 19:04:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'createtime' => '1487847891',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103118',
+    'from' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487847891',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:04:51 response :
+------------
+
+2017-02-23 19:06:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487847965</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[建设]]></EventKey>
+</xml>
+
+2017-02-23 19:06:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487847965',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '建设',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487847965',
+    'type' => 'text',
+    'content' => '建设',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'images',
+  'rule' => '19',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '36',
+    'rid' => '19',
+    'uniacid' => '10',
+    'module' => 'images',
+    'content' => '建设',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 19:06:05 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv5lnXqFd-E1kLQ4qOC-8bTY ;
+MsgType : image ;
+Image : Array ;
+
+2017-02-23 19:06:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487847968</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[建设]]></EventKey>
+</xml>
+
+2017-02-23 19:06:08 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487847968',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '建设',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487847968',
+    'type' => 'text',
+    'content' => '建设',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'images',
+  'rule' => '19',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '36',
+    'rid' => '19',
+    'uniacid' => '10',
+    'module' => 'images',
+    'content' => '建设',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 19:06:08 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv5lnXqFd-E1kLQ4qOC-8bTY ;
+MsgType : image ;
+Image : Array ;
+
+2017-02-23 19:06:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487848012</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-02-23 19:07:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487848032</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-02-23 19:07:12 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487848032',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848032',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-02-23 19:07:12 response :
+------------
+
+2017-02-23 19:07:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487848034</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 19:07:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487848034',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848034',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 19:07:14 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv5lnXqFd-E1kLQ4qOC-8bTY ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 19:07:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487848050</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:07:30 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487848050',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848050',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:07:30 response :
+------------
+
+2017-02-23 19:08:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487848129</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 19:08:49 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487848129',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848129',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 19:08:49 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv0jMwmSv77ADp_3EpcB3sro ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 19:09:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487848144</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 19:09:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487848144',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848144',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 19:09:04 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv0jMwmSv77ADp_3EpcB3sro ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 19:09:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487848146</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:09:06 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487848146',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848146',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:09:06 response :
+------------
+
+2017-02-23 19:10:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487848206</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:10:06 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487848206',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848206',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:10:06 response :
+------------
+
+2017-02-23 19:10:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487848254</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:10:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487848254',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848254',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:10:54 response :
+------------
+
+2017-02-23 19:12:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487848359</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:12:39 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487848359',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848359',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:12:39 response :
+------------
+
+2017-02-23 19:12:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487848363</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:12:43 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487848363',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848363',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:12:43 response :
+------------
+
+2017-02-23 19:16:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv1oEZv0h9EEeYmJOPvDjBjo]]></FromUserName>
+<CreateTime>1487848598</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:16:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'createtime' => '1487848598',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848598',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:16:38 response :
+------------
+
+2017-02-23 19:17:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv1oEZv0h9EEeYmJOPvDjBjo]]></FromUserName>
+<CreateTime>1487848637</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 19:17:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'createtime' => '1487848637',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848637',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 19:17:18 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv1oEZv0h9EEeYmJOPvDjBjo ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 19:19:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487848766</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:19:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487848766',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848766',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:19:26 response :
+------------
+
+2017-02-23 19:20:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487848800</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:20:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487848800',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848800',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:20:00 response :
+------------
+
+2017-02-23 19:22:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487848944</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 19:22:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487848944',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848944',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 19:22:25 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv0jMwmSv77ADp_3EpcB3sro ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 19:22:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487848945</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:22:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487848945',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487848945',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:22:25 response :
+------------
+
+2017-02-23 19:24:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487849095</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 19:24:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487849095',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487849095',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 19:24:55 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv0jMwmSv77ADp_3EpcB3sro ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 19:24:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487849096</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 19:24:56 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487849096',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487849096',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 19:24:56 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv0jMwmSv77ADp_3EpcB3sro ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 19:24:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487849099</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 19:24:59 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487849099',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487849099',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 19:24:59 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv0jMwmSv77ADp_3EpcB3sro ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 19:25:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487849101</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:25:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487849101',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487849101',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:25:01 response :
+------------
+
+2017-02-23 19:37:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487849845</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:37:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487849845',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487849845',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:37:26 response :
+------------
+
+2017-02-23 19:38:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487849898</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:38:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487849898',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487849898',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:38:18 response :
+------------
+
+2017-02-23 19:38:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487849926</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:38:46 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487849926',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487849926',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:38:46 response :
+------------
+
+2017-02-23 19:48:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv1oEZv0h9EEeYmJOPvDjBjo]]></FromUserName>
+<CreateTime>1487850509</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 19:48:30 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'createtime' => '1487850509',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487850509',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 19:48:30 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv1oEZv0h9EEeYmJOPvDjBjo ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 19:49:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv1oEZv0h9EEeYmJOPvDjBjo]]></FromUserName>
+<CreateTime>1487850564</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:49:24 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'createtime' => '1487850564',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv1oEZv0h9EEeYmJOPvDjBjo',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487850564',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:49:24 response :
+------------
+
+2017-02-23 19:54:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487850884</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 19:54:44 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487850884',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487850884',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 19:54:44 response :
+------------
+
+2017-02-23 20:07:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487851631</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 20:07:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487851631',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487851631',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 20:07:11 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv5lnXqFd-E1kLQ4qOC-8bTY ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 20:07:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487851648</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 20:07:28 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487851648',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487851648',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 20:07:28 response :
+------------
+
+2017-02-23 20:08:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv5lnXqFd-E1kLQ4qOC-8bTY]]></FromUserName>
+<CreateTime>1487851703</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 20:08:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'createtime' => '1487851703',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv5lnXqFd-E1kLQ4qOC-8bTY',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487851703',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 20:08:23 response :
+------------
+
+2017-02-23 21:24:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv8arq0FtisiLCSkq9_l-1bQ]]></FromUserName>
+<CreateTime>1487856285</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 21:24:46 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'createtime' => '1487856285',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487856285',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 21:24:46 response :
+------------
+
+2017-02-23 21:25:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv8arq0FtisiLCSkq9_l-1bQ]]></FromUserName>
+<CreateTime>1487856342</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 21:25:42 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'createtime' => '1487856342',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487856342',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 21:25:42 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv8arq0FtisiLCSkq9_l-1bQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 21:25:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv8arq0FtisiLCSkq9_l-1bQ]]></FromUserName>
+<CreateTime>1487856345</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 21:25:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'createtime' => '1487856345',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv8arq0FtisiLCSkq9_l-1bQ',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487856345',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 21:25:45 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv8arq0FtisiLCSkq9_l-1bQ ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 21:28:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487856506</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 21:28:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487856506',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487856506',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 21:28:26 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv0jMwmSv77ADp_3EpcB3sro ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 21:28:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487856508</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[研发]]></EventKey>
+</xml>
+
+2017-02-23 21:28:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487856508',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '研发',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487856508',
+    'type' => 'text',
+    'content' => '研发',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '38',
+    'rid' => '20',
+    'uniacid' => '10',
+    'module' => 'news',
+    'content' => '研发',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-23 21:28:28 response :
+------------
+Array:
+FromUserName : gh_57dadc16452e ;
+ToUserName : oBgRCv0jMwmSv77ADp_3EpcB3sro ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-23 21:28:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487856514</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 21:28:35 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487856514',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487856514',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 21:28:35 response :
+------------
+
+2017-02-23 21:43:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_57dadc16452e]]></ToUserName>
+<FromUserName><![CDATA[oBgRCv0jMwmSv77ADp_3EpcB3sro]]></FromUserName>
+<CreateTime>1487857392</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai]]></EventKey>
+<MenuId>416103524</MenuId>
+</xml>
+
+2017-02-23 21:43:12 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_57dadc16452e',
+    'fromusername' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'createtime' => '1487857392',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'menuid' => '416103524',
+    'from' => 'oBgRCv0jMwmSv77ADp_3EpcB3sro',
+    'to' => 'gh_57dadc16452e',
+    'time' => '1487857392',
+    'type' => 'text',
+    'content' => 'http://wx.51zjdt.com/app/index.php?i=10&c=entry&do=index&m=q_3354988381_rencai',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-02-23 21:43:12 response :
+------------
+

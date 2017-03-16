@@ -1,0 +1,39 @@
+<?php defined('IN_IA') or exit('Access Denied');?><?php (!empty($this) && $this instanceof WeModuleSite || 1) ? (include $this->template('common/header', TEMPLATE_INCLUDEPATH)) : (include template('common/header', TEMPLATE_INCLUDEPATH));?>
+<form action="" method="post" class="form-horizontal form" enctype="multipart/form-data" id="form1">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+               	 参数设置
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">最小值</label>
+                    <div class="col-sm-9 col-xs-12">
+                        <input type="text" name="min" class="form-control" value="1" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">最大值</label>
+                    <div class="col-sm-9 col-xs-12">
+                        <input type="text" name="max" class="form-control" value="10" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">日期</label>
+                    <div class="col-sm-9 col-xs-12">
+                        <?php  echo tpl_form_field_daterange('time')?>
+                        <p class="help-block">帖子发布日期范围</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="form-group col-sm-12">
+            <input type="submit" name="look" value="刷浏览" class="btn btn-primary " />
+            &nbsp;
+            <input type="submit" name="good" value="刷赞" class="btn btn-success " />
+            &nbsp;
+            <input type="submit" name="share" value="刷分享" class="btn btn-info" />
+            <input type="hidden" name="token" value="<?php  echo $_W['token'];?>" />
+        </div>
+    </form>
+<?php (!empty($this) && $this instanceof WeModuleSite || 1) ? (include $this->template('common/footer', TEMPLATE_INCLUDEPATH)) : (include template('common/footer', TEMPLATE_INCLUDEPATH));?>

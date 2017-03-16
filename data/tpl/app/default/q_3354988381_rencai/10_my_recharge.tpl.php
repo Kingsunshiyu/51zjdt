@@ -1,0 +1,64 @@
+<?php defined('IN_IA') or exit('Access Denied');?><?php (!empty($this) && $this instanceof WeModuleSite) ? (include $this->template('common_header', TEMPLATE_INCLUDEPATH)) : (include template('common_header', TEMPLATE_INCLUDEPATH));?>
+<link rel="stylesheet" href="<?php echo CURR_UI_DIR;?>weui/style/weui.css"/>
+<style type="text/css">
+    body,html{height:100%;-webkit-tap-highlight-color:transparent}.page,body{background-color:#fbf9fe}.page{overflow-y:auto;-webkit-overflow-scrolling:touch}.hd{padding:2em 0}.page_title{text-align:center;font-size:34px;color:#3cc51f;font-weight:400;margin:0 15%}
+p, hr, ul, ol, dl, blockquote, pre, address, fieldset, figure {
+    margin: 0 0 0 0;
+}
+</style>
+<div class="page">
+    <div class="hd">
+        <h1 class="page_title"><?php  echo $curr_title;?></h1>
+    </div>
+	<div class="weui_cells">
+        <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+                <p>当前余额</p>
+            </div>
+            <div class="weui_cell_ft">￥<?php  echo $my_money;?></div>
+        </div>
+        <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+                <p>充值金额</p>
+            </div>
+            <div class="weui_cell_ft"><input style="text-align:left" class="weui_input" type="number" placeholder="最低充值 <?php echo $this->module['config']['miniaddmoney']?$this->module['config']['miniaddmoney']:1;?> 元" name="addmoney" id="addmoney"></div>
+        </div>        
+    </div>    
+    <div class="weui_btn_area">
+        <button class="weui_btn weui_btn_primary weui_btn_disabled" id="btn_recharge">立即充值</button>
+    </div>
+</div>
+<script src="<?php echo CURR_UI_DIR;?>weui/weui.js"></script>
+<script type="text/javascript">
+    var flag = 0;
+    $('#addmoney').bind('input propertychange', function() {
+        if($(this).val().length > 0){
+            $("#btn_recharge").removeClass("weui_btn_disabled");
+            flag = 1;
+        }else{
+            $("#btn_recharge").addClass("weui_btn_disabled");
+            flag = 0;
+        }
+    });
+    $('#btn_recharge').click(function() {
+        if (flag == 1) {
+            var money = $("#addmoney").val();
+            $("#btn_recharge").addClass("weui_btn_disabled");
+            flag = 0;
+            $.ajax({
+                url: '<?php  echo $this->createMobileUrl('my_recharge');?>',
+                type: 'post',
+                dataType: 'json',
+                data: {addmoney: money},
+                success:function(data){
+                    if (data.status == 1) {
+                        window.location.href = '<?php  echo $this->createMobileUrl('pay');?>';
+                    }else{
+                        Weui.alert({"title":"充值失败","content":data.msg});
+                    }
+                }
+            });            
+        }
+    });
+</script>
+<?php (!empty($this) && $this instanceof WeModuleSite) ? (include $this->template('common_footer', TEMPLATE_INCLUDEPATH)) : (include template('common_footer', TEMPLATE_INCLUDEPATH));?>

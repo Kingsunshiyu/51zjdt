@@ -1,0 +1,96 @@
+2017-02-12 22:19:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_87bc113e48c4]]></ToUserName>
+<FromUserName><![CDATA[oH-A1wG-41k6XAjk1kqqQu-YI0ec]]></FromUserName>
+<CreateTime>1486909147</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[aaa]]></Content>
+<MsgId>6386226158904214274</MsgId>
+</xml>
+
+2017-02-12 22:19:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_87bc113e48c4',
+    'fromusername' => 'oH-A1wG-41k6XAjk1kqqQu-YI0ec',
+    'createtime' => '1486909147',
+    'msgtype' => 'text',
+    'content' => 'aaa',
+    'msgid' => '6386226158904214274',
+    'from' => 'oH-A1wG-41k6XAjk1kqqQu-YI0ec',
+    'to' => 'gh_87bc113e48c4',
+    'time' => '1486909147',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'jy_wei',
+  'rule' => '10',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '15',
+    'rid' => '10',
+    'uniacid' => '9',
+    'module' => 'jy_wei',
+    'content' => 'aaa',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-02-12 22:19:07 response :
+------------
+Array:
+FromUserName : gh_87bc113e48c4 ;
+ToUserName : oH-A1wG-41k6XAjk1kqqQu-YI0ec ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-02-12 22:19:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_87bc113e48c4]]></ToUserName>
+<FromUserName><![CDATA[oH-A1wG-41k6XAjk1kqqQu-YI0ec]]></FromUserName>
+<CreateTime>1486909183</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[地方
+]]></Content>
+<MsgId>6386226313523036946</MsgId>
+</xml>
+
+2017-02-12 22:19:43 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_87bc113e48c4',
+    'fromusername' => 'oH-A1wG-41k6XAjk1kqqQu-YI0ec',
+    'createtime' => '1486909183',
+    'msgtype' => 'text',
+    'content' => '地方
+',
+    'msgid' => '6386226313523036946',
+    'from' => 'oH-A1wG-41k6XAjk1kqqQu-YI0ec',
+    'to' => 'gh_87bc113e48c4',
+    'time' => '1486909183',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-02-12 22:19:43 response :
+------------
+
