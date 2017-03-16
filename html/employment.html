@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+
+<head>
+    <meta charset="UTF-8">
+    <title>贵州工业职业技术学院各专业男女生分布图</title>
+    <script type="text/javascript" src="js/echarts.min.js"></script>
+</head>
+
+<body style="height: 100%; margin: 0">
+    <div id="container" style="height: 100%"></div>
+    <script type="text/javascript">
+        var dom = document.getElementById("container");
+        var myChart = echarts.init(dom);
+        option = {
+            title: {
+                text: '贵州工业职业技术学院各专业男女生分布图'
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['男', '女']
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                data: ['工业分析技术', '应用化工技术', '绿色食品生产与检验', '材料工程技术', '药品生产技术', '精细化工技术', '化工生物技术']
+            }],
+            yAxis: [{
+                type: 'value'
+            }],
+            series: [{
+                name: '男',
+                type: 'line',
+                stack: '总量',
+                areaStyle: {
+                    normal: {}
+                },
+                data: [120, 132, 101, 134, 90, 230, 210]
+            }, {
+                name: '女',
+                type: 'line',
+                stack: '总量',
+                areaStyle: {
+                    normal: {}
+                },
+                data: [220, 182, 191, 234, 290, 330, 310]
+            }]
+        };
+        if (option && typeof option === "object") {
+            myChart.setOption(option, true);
+        }
+    </script>
+</body>
+
+</html>

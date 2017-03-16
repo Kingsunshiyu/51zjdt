@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Echarts_test</title>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+
+<div id="main" style="width: 800px;height:500px;padding-left: 250px; " ></div>
+<div style=" padding-left: 600px;" >
+    <input type="button" style="width: 90px; height: 40px;background: white;" value="就业率分析" id="bt_an" onclick="button_onclick()"></input>
+</div>
+
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+    // 指定图表的配置项和数据
+    option = {
+        title : {
+            text: '2009-2015年大学生就业情况',
+            subtext: '纯属虚构'
+        },
+        tooltip : {
+            trigger: 'axis'
+        },
+        legend: {
+            data:['毕业人数','待就业人数']
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                dataView : {show: true, readOnly: false},
+                magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+                restore : {show: true},
+                saveAsImage : {show: true}
+            }
+        },
+        calculable : true,
+        xAxis : [
+            {
+                type : 'category',
+                boundaryGap : false,
+                data : ['2009','2010','2011','2012','2013','2014','2015']
+            }
+        ],
+        yAxis : [
+            {
+                type : 'value'
+            }
+        ],
+        series : [
+            {
+                name:'毕业人数',
+                type:'line',
+                stack: '总数',
+                data:[611, 631, 660, 680, 699, 727, 749]
+            },
+            {
+                name: '待就业人数',
+                type: 'line',
+                stack: '总量',
+                data: [173, 170, 191, 234, 290, 330, 310]
+            }
+        ]
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+    var dataStyle = {
+        normal: {
+            label : {
+                show: true,
+
+                formatter: '{c}%'
+            }
+        }
+    };
+    function button_onclick(){
+        //这里写你要执行的语句
+      var xx = document.getElementById("bt_an").value;
+      if(xx=="就业率分析"){
+          document.getElementById("bt_an").value="毕业人数分析";
+          myChart = echarts.init(document.getElementById('main'));
+          option1= {
+              title : {
+                  text: '2009-2015年大学生就业率',
+                  subtext: '纯属虚构'
+              },
+              tooltip : {
+                  trigger: 'axis'
+              },
+              legend: {
+                  data:['就业率']
+              },
+              toolbox: {
+                  show : true,
+                  feature : {
+                      mark : {show: true},
+                      dataView : {show: true, readOnly: false},
+                      magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+                      restore : {show: true},
+                      saveAsImage : {show: true}
+                  }
+              },
+              calculable : true,
+              xAxis : [
+                  {
+                      type : 'category',
+                      boundaryGap : false,
+                      data : ['2009','2010','2011','2012','2013','2014','2015']
+                  }
+              ],
+              yAxis : [
+                  {
+                      type :'value',
+                      axisLabel : {
+                          formatter: '{value}%'
+                      },
+                  }
+              ],
+              series : [
+                  {
+                      name:'就业率',
+                      type:'line',
+                      stack: '百分比',
+                      itemStyle : dataStyle,
+                      data:[96.1,94.5, 92.8, 91.8, 91.1, 93.2, 92.5]
+                  }
+
+              ]
+          };
+          myChart.setOption(option1);
+
+
+      }else{
+          document.getElementById("bt_an").value="就业率分析";
+          myChart.clear(option);
+          myChart.setOption(option);
+      }
+
+
+
+    }
+</script>
+</body>
+</html>

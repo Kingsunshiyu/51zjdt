@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="js/Chord.js"></script>
+</head>
+
+<body style="height: 100%; margin: 0">
+    <div id="container" style="height: 100%"></div>
+    <script type="text/javascript">
+    var dom = document.getElementById("container");
+    var myChart = echarts.init(dom);
+    option = {
+        title: {
+            text: '学校专业',
+            x: 'right',
+            textStyle: {
+                fontSize: 18,
+                fontWeight: 'bolder',
+                color: '#2998d2'
+            },
+            y: 'bottom'
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: function(params) {
+                if (params.indicator2) { // is edge
+                    return params.indicator2 + ' ' + params.name + ' ' + params.indicator;
+                } else { // is node
+                    return params.name
+                }
+            }
+        },
+        toolbox: {
+            show: true,
+            feature: {
+                restore: {
+                    show: true
+                },
+                magicType: {
+                    show: true,
+                    type: ['force', 'chord']
+                },
+                saveAsImage: {
+                    show: true
+                }
+            }
+        },
+        legend: {
+            x: 'left',
+            data: ['贵州工业职业技术学院', '贵州建设职业技术学院', '贵阳幼儿师范高等专科学校','贵阳市经济贸易学校']
+        },
+        series: [{
+            name: '学校专业',
+            type: 'chord',
+            sort: 'ascending',
+            sortSub: 'descending',
+            ribbonType: false,
+            radius: '60%',
+            itemStyle: {
+                normal: {
+                    label: {
+                        rotate: true
+                    }
+                }
+            },
+            minRadius: 7,
+            maxRadius: 20,
+            // 使用 nodes links 表达和弦图
+            nodes: [{
+                name: '工业分析技术'
+            }, {
+                name: '应用化工技术'
+            }, {
+                name: '绿色食品生产与检验'
+            }, {
+                name: '城市轨道交通工程技术'
+            }, {
+                name: '建设工程管理'
+            }, {
+                name: '建设工程监理'
+            }, {
+                name: '水利水电工程技术'
+            }, {
+                name: '给排水工程技术'
+            }, {
+                name: '市政工程技术'
+            }, {
+                name: '地下与隧道工程技术'
+            }, {
+                name: '学前教育系'
+            }, {
+                name: '艺术系'
+            }, {
+                name: '成人教育部  '
+            }, {
+                name: '社会工作系'
+            }, {
+                name: '贵州工业职业技术学院'
+            }, {
+                name: '贵州建设职业技术学院'
+            }, {
+                name: '贵阳幼儿师范高等专科学校'
+            },{
+                name: '贵阳市经济贸易学校'
+            },{           
+                name: '计算机网络技术'
+            },{
+                name: '物流服务与管理'
+            },{
+                name: '服装设计与工艺'
+            }],            
+            links: [{
+                source: '贵阳市经济贸易学校',
+                target: '计算机网络技术',
+                weight: 1,
+                name: '专业'
+            },{
+                source: '贵阳市经济贸易学校',
+                target: '物流服务与管理',
+                weight: 1,
+                name: '专业'
+            },
+            {
+                source: '贵阳市经济贸易学校',
+                target: '服装设计与工艺',
+                weight: 1,
+                name: '专业'
+            },
+            {
+                source: '贵州工业职业技术学院',
+                target: '工业分析技术',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵州工业职业技术学院',
+                target: '应用化工技术',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵州工业职业技术学院',
+                target: '绿色食品生产与检验',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵州建设职业技术学院',
+                target: '城市轨道交通工程技术',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵州建设职业技术学院',
+                target: '建设工程管理',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵州建设职业技术学院',
+                target: '建设工程监理',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵州建设职业技术学院',
+                target: '水利水电工程技术',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵州建设职业技术学院',
+                target: '给排水工程技术',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵州建设职业技术学院',
+                target: '市政工程技术',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵州建设职业技术学院',
+                target: '地下与隧道工程技术',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵阳幼儿师范高等专科学校',
+                target: '学前教育系',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵阳幼儿师范高等专科学校',
+                target: '艺术系',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵阳幼儿师范高等专科学校',
+                target: '成人教育部',
+                weight: 1,
+                name: '专业'
+            }, {
+                source: '贵阳幼儿师范高等专科学校',
+                target: '社会工作系',
+                weight: 1,
+                name: '专业'
+            }]
+        }]
+    };
+
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+    </script>
+</body>
+
+</html>

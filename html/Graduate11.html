@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+
+<head>
+    <meta charset="UTF-8">
+    <title>职教城毕业生就业去向分布图</title>
+    <script type="text/javascript" src="js/Bar.js"></script>
+</head>
+
+<body style="height: 100%; margin: 0">
+    <div id="container" style="height: 100%;width:41%;display: inline-block;"></div>
+    <div id="main2" style="height: 100%;width:56%;display: inline-block;"></div>
+    <script type="text/javascript">
+        myChart = echarts.init(document.getElementById('container'));
+        option = {
+            title: {
+                text: '职教城毕业生就业去向分布图',
+                subtext: '',
+                x: 'center',
+                y:'40'
+            },
+            tooltip: {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                x: 'left',
+                y:'20',
+                data: ['贵州工业职业技术学院', '贵州建设职业技术学院', '贵阳幼儿师范高等专科学校', '贵阳市经济贸易学校', '贵州工商职业学院']
+            },
+            calculable: true,
+            series: [{
+                name: '访问来源',
+                type: 'pie',
+                radius: '55%',
+                center: ['50%', 355],
+                data: [{
+                    value: 330,
+                    name: '贵州工业职业技术学院'
+                }, {
+                    value: 230,
+                    name: '贵州建设职业技术学院'
+                }, {
+                    value: 330,
+                    name: '贵阳幼儿师范高等专科学校'
+                }, {
+                    value: 330,
+                    name: '贵阳市经济贸易学校'
+                }, {
+                    value: 1330,
+                    name: '贵州工商职业学院'
+                }]
+            }]
+        };
+
+        option2 = {
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                }
+            },
+            legend: {
+                data: ['贵州工业职业技术学院', '贵州建设职业技术学院', '贵阳幼儿师范高等专科学校', '贵阳市经济贸易学校', '贵州工商职业学院'],
+                y:'20'
+            },
+            toolbox: {
+                show: true,
+                orient: 'vertical',
+                y: 'center',            
+                feature: {
+                    mark: {
+                        show: true
+                    },
+                    magicType: {
+                        show: true,
+                        type: ['line', 'bar', 'stack', 'tiled']
+                    },
+                    restore: {
+                        show: true
+                    },
+                    saveAsImage: {
+                        show: true
+                    }
+                }
+            },
+            calculable: true,
+            xAxis: [{
+                type: 'category',
+                data: ['贵阳经开区', '高新区', '京东产业园', '苏宁物流园', '富士康贵阳园', '中关村贵阳园', '中电贵云数据服务科技园']
+            }],
+            yAxis: [{
+                type: 'value',
+                splitArea: {
+                    show: true
+                }
+            }],
+            grid: {
+                x2: 40
+            },
+            series: [{
+                name: '贵州工业职业技术学院',
+                type: 'bar',
+                stack: '总量',
+                data: [320, 332, 301, 334, 390, 330, 320]
+            }, {
+                name: '贵州建设职业技术学院',
+                type: 'bar',
+                stack: '总量',
+                data: [120, 132, 101, 134, 90, 230, 210]
+            }, {
+                name: '贵阳幼儿师范高等专科学校',
+                type: 'bar',
+                stack: '总量',
+                data: [220, 182, 191, 234, 290, 330, 310]
+            }, {
+                name: '贵阳市经济贸易学校',
+                type: 'bar',
+                stack: '总量',
+                data: [150, 232, 201, 154, 190, 330, 410]
+            }, {
+                name: '贵州工商职业学院',
+                type: 'bar',
+                stack: '总量',
+                data: [820, 932, 901, 934, 1290, 1330, 1320]
+            }]
+        };
+
+        myChart2 = echarts.init(document.getElementById('main2'));
+        myChart2.setOption(option2);
+
+        myChart.connect(myChart2);
+        myChart2.connect(myChart);
+        myChart.setOption(option);
+        setTimeout(function() {
+            window.onresize = function() {
+                myChart.resize();
+                myChart2.resize();
+            }
+        }, 200)
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="js/echarts.min.js"></script>
+</head>
+
+<body style="height: 100%; margin: 0">
+    <div id="container" style="height: 100%"></div>
+    <script type="text/javascript">
+    myChart = echarts.init(document.getElementById('container'));
+    var builderJson = {
+        "all": 10887,
+        "all2": 9888,
+        "charts": {
+            "工业分析技术": 3437,
+            "应用化工技术": 3564,
+            "绿色食品生产与检验 ": 7561,
+            "材料工程技术": 7778,
+            "药品生产技术": 7055,
+            "城市燃气工程技术": 4405,
+            "精细化工技术": 3842,
+            "化工生物技术": 4090,
+            "环境评价与咨询服务": 4762,
+            "电气自动化技术": 5593,
+            "应用电子技术": 4060,
+            "电子信息工程技术": 4537,
+            "物联网应用技术": 3908,
+            "广告设计与制作": 4107,
+            "建筑工程技术": 3692,
+            "工程造价": 3568
+        },
+        "components": {
+            "工业分析技术": 3580,
+            "应用化工技术": 3575,
+            "绿色食品生产与检验": 7400,
+            "材料工程技术": 7466,
+            "药品生产技术": 6866,
+            "城市燃气工程技术": 4419,
+            "精细化工技术": 3984,
+            "化工生物技术": 4100,
+            "环境评价与咨询服务": 4744,
+            "电气自动化技术": 5366,
+            "应用电子技术": 4034,
+            "物联网应用技术": 3945,
+            "广告设计与制作": 4507,
+            "建筑工程技术": 3192,
+            "工程造价": 3368
+        },
+        "ie": 9743
+    };
+
+    var downloadJson = {
+        "3000~4500": 6504,
+        "4501~6000": 2443,
+        "6001~7500": 540,
+        "7500以上": 1400
+    };
+    var themeJson = {
+        "3000~4000": 3708,
+        "4001~5000": 3090,
+        "5001~6000": 618,
+        "6000~7000": 618,
+        "7001以上": 1236
+    };
+
+    var waterMarkText = 'ECHARTS';
+
+    var canvas = document.createElement('canvas');
+    var ctx = canvas.getContext('2d');
+    canvas.width = canvas.height = 100;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.globalAlpha = 0.08;
+    ctx.font = '20px Microsoft Yahei';
+    ctx.translate(50, 50);
+    ctx.rotate(-Math.PI / 4);
+    ctx.fillText(waterMarkText, 0, 0);
+
+    option = {
+        backgroundColor: {
+            type: 'pattern',
+            image: canvas,
+            repeat: 'repeat'
+        },
+        tooltip: {},
+        title: [{
+            text: '贵州工业职业技术学院各专业男生起薪分布图',
+            subtext: '总计 ' + builderJson.all,
+            x: '25%',
+            textAlign: 'center'
+        }, {
+            text: '贵州工业职业技术学院各专业女生起薪分布图',
+            subtext: '总计 ' + builderJson.all2,
+            x: '25%',
+            y: '50%',
+            textAlign: 'center'
+        }, {
+            text: '贵州工业职业技术学院男生起薪分布图',
+            subtext: '总计 ' + Object.keys(downloadJson).reduce(function(all, key) {
+                return all + downloadJson[key];
+            }, 0),
+            x: '75%',
+            textAlign: 'center'
+        }, {
+            text: '贵州工业职业技术学院女生起薪分布图',
+            subtext: '总计 ' + Object.keys(themeJson).reduce(function(all, key) {
+                return all + themeJson[key];
+            }, 0),
+            x: '75%',
+            y: '50%',
+            textAlign: 'center'
+        }],
+        grid: [{
+            top: 50,
+            width: '50%',
+            bottom: '50%',
+            left: 10,
+            containLabel: true
+        }, {
+            top: '55%',
+            width: '50%',
+            bottom: 7,
+            left: 10,
+            containLabel: true
+        }],
+        xAxis: [{
+            type: 'value',
+            max: builderJson.all,
+            splitLine: {
+                show: false
+            }
+        }, {
+            type: 'value',
+            max: builderJson.all,
+            gridIndex: 1,
+            splitLine: {
+                show: false
+            }
+        }],
+        yAxis: [{
+            type: 'category',
+            data: Object.keys(builderJson.charts),
+            axisLabel: {
+                interval: 0,
+                rotate: 30
+            },
+            splitLine: {
+                show: false
+            }
+        }, {
+            gridIndex: 1,
+            type: 'category',
+            data: Object.keys(builderJson.components),
+            axisLabel: {
+                interval: 0,
+                rotate: 30
+            },
+            splitLine: {
+                show: false
+            }
+        }],
+        series: [{
+            type: 'bar',
+            stack: 'chart',
+            z: 3,
+            label: {
+                normal: {
+                    position: 'right',
+                    show: true
+                }
+            },
+            data: Object.keys(builderJson.charts).map(function(key) {
+                return builderJson.charts[key];
+            })
+        }, {
+            type: 'bar',
+            stack: 'chart',
+            silent: true,
+            itemStyle: {
+                normal: {
+                    color: '#eee'
+                }
+            },
+            data: Object.keys(builderJson.charts).map(function(key) {
+                return builderJson.all - builderJson.charts[key];
+            })
+        }, {
+            type: 'bar',
+            stack: 'component',
+            xAxisIndex: 1,
+            yAxisIndex: 1,
+            z: 3,
+            label: {
+                normal: {
+                    position: 'right',
+                    show: true
+                }
+            },
+            data: Object.keys(builderJson.components).map(function(key) {
+                return builderJson.components[key];
+            })
+        }, {
+            type: 'bar',
+            stack: 'component',
+            silent: true,
+            xAxisIndex: 1,
+            yAxisIndex: 1,
+            itemStyle: {
+                normal: {
+                    color: '#eee'
+                }
+            },
+            data: Object.keys(builderJson.components).map(function(key) {
+                return builderJson.all - builderJson.components[key];
+            })
+        }, {
+            type: 'pie',
+            radius: [0, '30%'],
+            center: ['75%', '25%'],
+            data: Object.keys(downloadJson).map(function(key) {
+                return {
+                    name: key.replace('.js', ''),
+                    value: downloadJson[key]
+                }
+            })
+        }, {
+            type: 'pie',
+            radius: [0, '30%'],
+            center: ['75%', '75%'],
+            data: Object.keys(themeJson).map(function(key) {
+                return {
+                    name: key.replace('.js', ''),
+                    value: themeJson[key]
+                }
+            })
+        }]
+    }
+
+    myChart.setOption(option);
+    </script>
+</body>
+
+</html>
