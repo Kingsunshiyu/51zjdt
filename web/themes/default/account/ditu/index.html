@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公众号列表 - 公众号 - 贵州职教风云大数据</title>
+    <meta name="keywords" content="职教大数据,51zjdt.com" />
+    <meta name="description" content="职教大数据,51zjdt.com" />
+    <link rel="shortcut icon" href="http://wx.51zjdt.com/attachment/images/global/hbeqK9brs5ahaAt5hjT5jjStA5jzcK.ico" />
+    <link href="./resource/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./resource/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./resource/css/common.css?v=20161011" rel="stylesheet">
+    <script type="text/javascript" src="./resource/js/lib/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./resource/js/app/util.js"></script>
+    <script type="text/javascript" src="./resource/js/app/common.min.js"></script>
+    <script type="text/javascript" src="./resource/js/require.js"></script>
+    <script type="text/javascript" src="./resource/js/app/config.js"></script>
+</head>
+
+<body>
+    <div class="gw-container">
+        <div class="row" style="border-top: 4px solid #44b549;border-bottom: 1px solid #d9dadc; background-color: #FFFFFF;">
+            <div class="col-xs-12 col-sm-3 col-lg-2">
+                <div style="height: 60px;background: transparent url(http://wx.51zjdt.com/attachment/images/global/dXAXa3BCDrhv9dhRXAvHVeZylyXdEW.png) center center no-repeat;background-color: white;"></div>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-lg-10">
+                <div class="navbar navbar-default" style="margin-bottom: 0px;background-color: #FFFFFF;border-color: #FFFFFF;border: 0px solid transparent;">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="./?refresh"><i class="fa fa-cogs"></i> 管理首页</a></li>
+                            <li><a href="https://mp.weixin.qq.com/" target="_blank"><i class="fa fa-wechat"></i> 微信公众平台</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown topbar-notice">
+                                <a type="button" data-toggle="dropdown">
+                                    <i class="fa fa-bell"></i>
+                                    <span class="badge" id="notice-total">0</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dLabel">
+                                    <div class="topbar-notice-panel">
+                                        <div class="topbar-notice-arrow"></div>
+                                        <div class="topbar-notice-head">
+                                            <span>系统公告</span>
+                                            <a href="./index.php?c=article&a=notice-show&do=list&" class="pull-right">更多公告>></a>
+                                        </div>
+                                        <div class="topbar-notice-body">
+                                            <ul id="notice-container"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" style="display:block; max-width:185px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; "> <i class="fa fa-comments"></i> admin (公众号操作员) <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./index.php?c=user&a=profile&do=profile&" target="_blank"><i class="fa fa-weixin fa-fw"></i> 我的账号</a></li>
+                                    <li><a href="./index.php?c=user&a=logout&"><i class="fa fa-sign-out fa-fw"></i> 退出系统</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="margin-top: 36px;margin-bottom: 88px;min-height: 700px;">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-lg-2 big-menu" style="padding-right: 0px;">
+                    <div id="search-menu">
+                        <input class="form-control input-lg" style="border-radius:0; font-size:14px; height:43px;" type="text" placeholder="输入菜单名称可快速查找">
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" style='padding: 14px 15px;'>
+                            <h4 class="panel-title"><i class="fa fa-home"></i> 管理中心</h4>
+                            <a class="panel-collapse collapsed" data-toggle="collapse" href="#frame-0">
+                                <i class="fa fa-chevron-circle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="list-group collapse in" id="frame-0">
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=welcome&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="系统管理">
+                                <a class="pull-right" href="./index.php?c=system&a=welcome&"><i class="fa fa-home"></i></a> 系统管理
+                            </li>
+                            <li class="list-group-item  active" onclick="window.location.href = './index.php?c=account&a=display&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="公众号管理">
+                                <a class="pull-right" href="./index.php?c=account&a=display&"><i class="fa fa-wechat"></i></a> 公众号管理
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=account&a=recycle&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="公众号回收站">
+                                <a class="pull-right" href="./index.php?c=account&a=recycle&"><i class="fa fa-trash-o"></i></a> 公众号回收站
+                            </li>
+                        </ul>
+                        <div class="panel-heading" style='padding: 14px 15px;'>
+                            <h4 class="panel-title"><i class="fa fa-joomla"></i> 应用商城管理</h4>
+                            <a class="panel-collapse collapsed" data-toggle="collapse" href="#frame-2">
+                                <i class="fa fa-chevron-circle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="list-group collapse in" id="frame-2">
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=cloud&a=up&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="一键更新">
+                                <a class="pull-right" href="./index.php?c=cloud&a=up&"><i class="fa fa-cloud-download"></i></a> 一键更新
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=home&a=welcome&do=members&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="应用商店">
+                                <a class="pull-right" href="./index.php?c=home&a=welcome&do=members&"><i class="fa fa-joomla"></i></a> 应用商店
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=shop&a=module&do=list&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="应用管理">
+                                <a class="pull-right" href="./index.php?c=shop&a=module&do=list&"><i class="fa fa-cubes"></i></a> 应用管理
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=member&a=member&do=record&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="消费记录">
+                                <a class="pull-right" href="./index.php?c=member&a=member&do=record&"><i class="fa fa-money"></i></a> 消费记录
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=member&a=member&do=chongzhi&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="充值记录">
+                                <a class="pull-right" href="./index.php?c=member&a=member&do=chongzhi&"><i class="fa fa-money"></i></a> 充值记录
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=shop&a=mpayset&do=payset&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="支付设置">
+                                <a class="pull-right" href="./index.php?c=shop&a=mpayset&do=payset&"><i class="fa fa-check-square"></i></a> 支付设置
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=shop&a=taocan&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="套餐绑定">
+                                <a class="pull-right" href="./index.php?c=shop&a=taocan&"><i class="fa fa-exchange"></i></a> 套餐绑定
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=shop&a=mkdel&do=mkset&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="相关设置">
+                                <a class="pull-right" href="./index.php?c=shop&a=mkdel&do=mkset&"><i class="fa fa-sitemap"></i></a> 相关设置
+                            </li>
+                        </ul>
+                        <div class="panel-heading" style='padding: 14px 15px;'>
+                            <h4 class="panel-title"><i class="fa fa-cubes"></i> 功能扩展</h4>
+                            <a class="panel-collapse collapsed" data-toggle="collapse" href="#frame-3">
+                                <i class="fa fa-chevron-circle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="list-group collapse in" id="frame-3">
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=extension&a=module&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="模块管理">
+                                <a class="pull-right" href="./index.php?c=extension&a=module&"><i class="fa fa-cubes"></i></a> 模块管理
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=extension&a=subscribe&do=subscribe&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="订阅管理">
+                                <a class="pull-right" href="./index.php?c=extension&a=subscribe&do=subscribe&"><i class="fa fa-volume-up"></i></a> 订阅管理
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=extension&a=service&do=display&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="常用服务">
+                                <a class="pull-right" href="./index.php?c=extension&a=service&do=display&"><i class="fa fa-glass"></i></a> 常用服务
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=extension&a=theme&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="微站风格">
+                                <a class="pull-right" href="./index.php?c=extension&a=theme&"><i class="fa fa-photo"></i></a> 微站风格
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=extension&a=pc&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="PC站风格">
+                                <a class="pull-right" href="./index.php?c=extension&a=pc&"><i class="fa fa-laptop"></i></a> PC站风格
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=extension&a=theme&do=web&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="后台皮肤">
+                                <a class="pull-right" href="./index.php?c=extension&a=theme&do=web&"><i class="fa fa-image"></i></a> 后台皮肤
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=extension&a=menu&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="系统菜单">
+                                <a class="pull-right" href="./index.php?c=extension&a=menu&"><i class="fa fa-list"></i></a> 系统菜单
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=extension&a=platform&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="微信开放平台">
+                                <a class="pull-right" href="./index.php?c=extension&a=platform&"><i class="fa fa-cubes"></i></a> 微信开放平台
+                            </li>
+                        </ul>
+                        <div class="panel-heading" style='padding: 14px 15px;'>
+                            <h4 class="panel-title"><i class="fa fa-rss-square"></i> 文章/公告</h4>
+                            <a class="panel-collapse collapsed" data-toggle="collapse" href="#frame-4">
+                                <i class="fa fa-chevron-circle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="list-group collapse in" id="frame-4">
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=article&a=about&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="关于我们">
+                                <a class="pull-right" href="./index.php?c=article&a=about&"><i class="fa fa-meh-o"></i></a> 关于我们
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=article&a=news&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="新闻管理">
+                                <a class="pull-right" href="./index.php?c=article&a=news&"><i class="fa fa-file-audio-o"></i></a> 新闻管理
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=article&a=notice&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="公告管理">
+                                <a class="pull-right" href="./index.php?c=article&a=notice&"><i class="fa fa-rss-square"></i></a> 公告管理
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=article&a=case&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="案例管理">
+                                <a class="pull-right" href="./index.php?c=article&a=case&"><i class="fa fa-align-center"></i></a> 案例管理
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=article&a=product&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="产品管理">
+                                <a class="pull-right" href="./index.php?c=article&a=product&"><i class="fa fa-thumbs-o-up"></i></a> 产品管理
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=article&a=agent&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="代理公司">
+                                <a class="pull-right" href="./index.php?c=article&a=agent&"><i class="fa fa-users"></i></a> 代理公司
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=website&a=wenda&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="问答系统">
+                                <a class="pull-right" href="./index.php?c=website&a=wenda&"><i class="fa fa-question"></i></a> 问答系统
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=article&a=link&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="友情链接">
+                                <a class="pull-right" href="./index.php?c=article&a=link&"><i class="fa fa-chain"></i></a> 友情链接
+                            </li>
+                        </ul>
+                        <div class="panel-heading" style='padding: 14px 15px;'>
+                            <h4 class="panel-title"><i class="fa fa-wechat"></i> 公众号管理</h4>
+                            <a class="panel-collapse collapsed" data-toggle="collapse" href="#frame-5">
+                                <i class="fa fa-chevron-circle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="list-group collapse in" id="frame-5">
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=account&a=display&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="公众号列表">
+                                <a class="pull-right" href="./index.php?c=account&a=display&"><i class="fa fa-wechat"></i></a> 公众号列表
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=account&a=batch&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="批量操作公众号">
+                                <a class="pull-right" href="./index.php?c=account&a=batch&"><i class="fa fa-align-left"></i></a> 批量操作公众号
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=account&a=groups&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="公众号服务套餐">
+                                <a class="pull-right" href="./index.php?c=account&a=groups&"><i class="fa fa-comments-o"></i></a> 公众号服务套餐
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=account&a=recycle&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="公众号回收站">
+                                <a class="pull-right" href="./index.php?c=account&a=recycle&"><i class="glyphicon glyphicon-trash"></i></a> 公众号回收站
+                            </li>
+                        </ul>
+                        <div class="panel-heading" style='padding: 14px 15px;'>
+                            <h4 class="panel-title"><i class="fa fa-user"></i> 用户管理</h4>
+                            <a class="panel-collapse collapsed" data-toggle="collapse" href="#frame-6">
+                                <i class="fa fa-chevron-circle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="list-group collapse in" id="frame-6">
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=user&a=profile&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="我的账号">
+                                <a class="pull-right" href="./index.php?c=user&a=profile&"><i class="fa fa-briefcase"></i></a> 我的账户
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=user&a=display&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="用户管理">
+                                <a class="pull-right" href="./index.php?c=user&a=display&"><i class="fa fa-user"></i></a> 用户管理
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=user&a=group&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="用户组管理">
+                                <a class="pull-right" href="./index.php?c=user&a=group&"><i class="fa fa-users"></i></a> 用户组管理
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=user&a=registerset&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="注册选项">
+                                <a class="pull-right" href="./index.php?c=user&a=registerset&"><i class="fa fa-user-md"></i></a> 注册选项
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=user&a=fields&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="资料字段管理">
+                                <a class="pull-right" href="./index.php?c=user&a=fields&"><i class="glyphicon glyphicon-list-alt"></i></a> 资料字段管理
+                            </li>
+                        </ul>
+                        <div class="panel-heading" style='padding: 14px 15px;'>
+                            <h4 class="panel-title"><i class="fa fa-cogs"></i> 系统管理</h4>
+                            <a class="panel-collapse collapsed" data-toggle="collapse" href="#frame-7">
+                                <i class="fa fa-chevron-circle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="list-group collapse in" id="frame-7">
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=updatecache&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="更新缓存">
+                                <a class="pull-right" href="./index.php?c=system&a=updatecache&"><i class="fa fa-refresh"></i></a> 更新缓存
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=site&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="站点设置">
+                                <a class="pull-right" href="./index.php?c=system&a=site&"><i class="fa fa-cogs"></i></a> 站点设置
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=mbsite&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="手机模板DIY">
+                                <a class="pull-right" href="./index.php?c=system&a=mbsite&"><i class="fa fa-wrench"></i></a> 手机模板DIY
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=attachment&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="附件设置">
+                                <a class="pull-right" href="./index.php?c=system&a=attachment&"><i class="fa fa-download"></i></a> 附件设置
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=common&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="其他设置">
+                                <a class="pull-right" href="./index.php?c=system&a=common&"><i class="fa fa-gear"></i></a> 其他设置
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=database&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="数据库">
+                                <a class="pull-right" href="./index.php?c=system&a=database&"><i class="fa fa-database"></i></a> 数据库
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=tools&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="工具">
+                                <a class="pull-right" href="./index.php?c=system&a=tools&"><i class="fa fa-legal"></i></a> 工具
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=sysinfo&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="系统信息">
+                                <a class="pull-right" href="./index.php?c=system&a=sysinfo&"><i class="fa fa-exclamation"></i></a> 系统信息
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=logs&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="查看日志">
+                                <a class="pull-right" href="./index.php?c=system&a=logs&"><i class="fa fa-book"></i></a> 查看日志
+                            </li>
+                        </ul>
+                        <div class="panel-heading" style='padding: 14px 15px;'>
+                            <h4 class="panel-title"><i class="fa fa-wrench"></i> 系统工具</h4>
+                            <a class="panel-collapse collapsed" data-toggle="collapse" href="#frame-8">
+                                <i class="fa fa-chevron-circle-down"></i>
+                            </a>
+                        </div>
+                        <ul class="list-group collapse in" id="frame-8">
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=tools&do=scan&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="木马查杀">
+                                <a class="pull-right" href="./index.php?c=system&a=tools&do=scan&"><i class="fa fa-bug"></i></a> 木马查杀
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=tools&do=bom&';" style="cursor:pointer; overflow:hidden;padding-left: 35px;" kw="bom检测">
+                                <a class="pull-right" href="./index.php?c=system&a=tools&do=bom&"><i class="fa fa-file-code-o"></i></a> bom检测
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=optimize&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="性能优化">
+                                <a class="pull-right" href="./index.php?c=system&a=optimize&"><i class="fa fa-rocket"></i></a> 性能优化
+                            </li>
+                            <li class="list-group-item " onclick="window.location.href = './index.php?c=system&a=filecheck&';" style="cursor:pointer; overflow:hidden; padding-left: 35px;" kw="系统文件校验">
+                                <a class="pull-right" href="./index.php?c=system&a=filecheck&"><i class="fa fa-file"></i></a> 系统文件校验
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-9 col-lg-10 well">
+                    <link href="./resource/css/shop.css" rel="stylesheet" type="text/css">
+                    <style>
+                        .account-rank img {
+                            width: 20px;
+                            height: 20px;
+                        }
+
+                        .alert {
+                            color: #666;
+                            padding: 10px
+                        }
+
+                        .text-strong {
+                            font-size: 14px;
+                            font-weight: bold;
+                        }
+
+                        .popover {
+                            max-width: 450px
+                        }
+
+                        .popover-content {
+                            padding-top: 0;
+                            line-height: 30px
+                        }
+
+                        .popover-content h5 {
+                            padding-bottom: 5px
+                        }
+                    </style>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="./index.php?c=account&a=display&">公众号列表</a></li>
+                    </ul>
+                    <div class="row">
+                        <div class="itext">
+                            <div class="tx">
+                                <a class="weix1"><span>● 贵州省贸易经济学校  </span></a>
+                                <a class="weix2"><span>● 贵州省邮电学校</span><i></i></a>
+                                <a class="weix3"><span>● 贵州省农业职业学院</span><i></i></a>
+                                <a class="weix4"><span>● 贵州省广播电影电视学校</span><i></i></a>
+                                <a class="weix5"><span>● 贵州电子商务职业技术学院</span><i></i></a>
+                                <a class="weix6"><span>● 贵州水利水电职业技术学院</span></a>
+                                <a class="weix7"><span>● 贵阳市经济贸易学校</span></a>
+                                <a class="weix8"><span>● 清镇市中等职业技术学校</span> </a>
+                                <a class="weix9"><span>● 贵州省财政学校</span></a>
+                                <a class="weix10"><span><i class="round">●</i> <span>清远驾驶人考试及再就业培训中心</span></span></a>
+                                <a class="weix11"><span>● 贵阳汽车工业技术学院</span></a>
+                                <a class="weix12"><span>● 贵州交通职业技术学院</span></a>
+                                <a class="weix13"><span>● 贵州省旅游学校</span><i></i></a>
+                                <a class="weix14"><span>● 贵州工业职业技术学院</span></a>
+                                <a class="weix15"><span>● 贵州省机械工业学校</span></a>
+                                <a class="weix16"><span>● 贵州建设职业技术学院</span></a>
+                                <a class="weix17"><span>● 贵阳幼儿师范高等专科学校</span></a>
+                                <a class="weix18"><span>● 贵州电力职业技术学院</span></a>
+                                <a class="weix19"><span>● 贵州工商技术职业学院</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center-block footer" role="footer">
+                <div class="text-center">
+                    贵州职教风云大数据有限公司 </div>
+                    <div class="text-center">
+                        powered by 51zjdt.com </div>
+                    </div>
+                </div>
+            </body>
+
+            </html>
